@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.post {
+  background-color: red;
+}
+
+.post {
+  background-color: blue;
+}
