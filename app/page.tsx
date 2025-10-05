@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, CheckCircle2, Zap, Shield, Users } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, CheckCircle2, Zap, Shield, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -12,7 +12,9 @@ export default function LandingPage() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <Zap className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-sans text-xl font-semibold text-foreground">YourBrand</span>
+              <span className="font-sans text-xl font-semibold text-foreground">
+                Makar Brand
+              </span>
             </div>
             <div className="hidden items-center gap-8 md:flex">
               <a
@@ -60,8 +62,9 @@ export default function LandingPage() {
             <span className="text-muted-foreground">faster than ever</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground text-pretty">
-            Transform your ideas into reality with our powerful platform. Everything you need to create, launch, and
-            scale your next big thing.
+            Transform your ideas into reality with our powerful platform.
+            Everything you need to create, launch, and scale your next big
+            thing.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="gap-2">
@@ -76,7 +79,10 @@ export default function LandingPage() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="border-t border-border bg-muted/30 py-20 lg:py-32">
+      <section
+        id="features"
+        className="border-t border-border bg-muted/30 py-20 lg:py-32"
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="font-sans text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
@@ -91,16 +97,21 @@ export default function LandingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                 <Zap className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">Lightning Fast</h3>
+              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">
+                Lightning Fast
+              </h3>
               <p className="mt-2 leading-relaxed text-muted-foreground">
-                Optimized for speed and performance. Get things done in record time.
+                Optimized for speed and performance. Get things done in record
+                time.
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-8 transition-shadow hover:shadow-lg">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                 <Shield className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">Secure by Default</h3>
+              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">
+                Secure by Default
+              </h3>
               <p className="mt-2 leading-relaxed text-muted-foreground">
                 Enterprise-grade security to keep your data safe and protected.
               </p>
@@ -109,7 +120,9 @@ export default function LandingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                 <Users className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">Team Collaboration</h3>
+              <h3 className="mt-6 font-sans text-xl font-semibold text-card-foreground">
+                Team Collaboration
+              </h3>
               <p className="mt-2 leading-relaxed text-muted-foreground">
                 Work together seamlessly with powerful collaboration tools.
               </p>
@@ -126,7 +139,8 @@ export default function LandingPage() {
               Ready to get started?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Join thousands of teams already building amazing products with our platform.
+              Join thousands of teams already building amazing products with our
+              platform.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button size="lg" className="gap-2">
@@ -163,12 +177,16 @@ export default function LandingPage() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <Zap className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-sans text-xl font-semibold text-foreground">YourBrand</span>
+              <span className="font-sans text-xl font-semibold text-foreground">
+                YourBrand
+              </span>
             </div>
-            <p className="text-sm text-muted-foreground">© 2025 YourBrand. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">
+              © 2025 YourBrand. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
     </main>
-  )
+  );
 }
